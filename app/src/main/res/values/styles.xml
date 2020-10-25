@@ -1,0 +1,34 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+
+
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowContentTransitions">true</item>
+    </style>
+
+<!--    <style name="exampleToastST">-->
+<!--        <item name="">#99C6C61A</item>-->
+<!--    </style>-->
+    <style name="exampleToastST">
+        <item name="stTextBold">true</item>
+        <item name="stTextColor">#fff</item>
+<!--        <item name="stFont"></item>-->
+        <item name="stTextSize">14sp</item>
+        <item name="stColorBackground">#CA0909</item>
+        <item name="stSolidBackground">true</item>
+        <item name="stStrokeWidth">3dp</item>
+        <item name="stStrokeColor">#B2FF59</item>
+        <item name="stIconStart">@drawable/icon6</item>\
+        <item name="stLength">SHORT</item> LONG or SHORT
+        <item name="stGravity">top</item> top or center
+        <item name="stRadius">5dp</item>
+    </style>
+
+
+</resources>

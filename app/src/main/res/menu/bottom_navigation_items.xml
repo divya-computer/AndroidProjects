@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_item1"
+        android:icon="@drawable/back_button"
+        android:title="Previous"/>
+
+    <item
+        android:id="@+id/action_item2"
+        android:icon="@drawable/notintrested"
+        android:title="Close"/>
+
+    <item
+        android:id="@+id/action_item3"
+        android:icon="@drawable/skip_button"
+        android:title="Next"/>
+
+</menu>

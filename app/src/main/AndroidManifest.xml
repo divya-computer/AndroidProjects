@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.everything">
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" /> <!-- For Flash Light -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoicon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="EachSingle.NotificationActivity"></activity>
+        <activity android:name="EachSingle.PreLoaderActivity" />
+        <activity android:name=".ProfilePage" />
+        <activity android:name="EachSingle.WaveLoadingActivity" />
+        <activity android:name="EachSingle.DisableButtonActivity" />
+        <activity android:name="EachSingle.FontStyleActivity" />
+        <activity android:name="EachSingle.ListFragmentActivity" /> <!-- <activity android:name="EachSingle.CombinedActivity2" /> -->
+        <activity android:name="EachSingle.CombinedActivity1" />
+        <activity android:name="EachSingle.LottiesActivity5" />
+        <activity android:name="EachSingle.LottiesActivity4" />
+        <activity android:name="EachSingle.LottiesActivity3" />
+        <activity android:name="EachSingle.LottiesActivity2" />
+        <activity android:name="EachSingle.LottiesActivity1" />
+        <activity android:name="EachSingle.LottiesActivity" />
+        <activity android:name="EachSingle.SoundClickActivity" />
+        <activity android:name="EachSingle.ImageSliderActivity" />
+        <activity android:name="EachSingle.VibrateActivity" />
+        <activity android:name="EachSingle.CountDownTimerActivity" />
+        <activity android:name="EachSingle.SpintheBottleActivity" />
+        <activity android:name="EachSingle.StyleableToastActivity" />
+        <activity android:name="EachSingle.SharedElement2" />
+        <activity android:name="EachSingle.SharedElementPreferenceActivity" />
+        <activity android:name="EachSingle.SeekbarBackgroundActivity" />
+        <activity android:name="EachSingle.TicTacToeActivity" />
+        <activity android:name="EachSingle.BrightnessBitmapActivity" />
+        <activity android:name="EachSingle.ScratchViewActivity" />
+        <activity android:name="EachSingle.ColorPickerActivity" />
+        <activity android:name="EachSingle.ColorSeekBarActivity" />
+        <activity android:name="EachSingle.RandomColorGeneratorActivity" />
+        <activity android:name="EachSingle.CalculatorActivity" />
+        <activity android:name="EachSingle.WallpaperButton" />
+        <activity android:name="EachSingle.TextToToastActivity" />
+        <activity android:name="EachSingle.RandomNumberGeneratorActivity" />
+        <activity android:name="EachSingle.TorchActivity" />
+        <activity android:name="EachSingle.BluetoothActivity" />
+        <activity android:name="EachSingle.NavigationDrawerActivity" />
+        <activity android:name="EachSingle.BottomSheetsActivity" />
+        <activity android:name="EachSingle.BottomNavigationActivity" />
+        <activity android:name="EachSingle.SnackBarsActivity" />
+        <activity android:name="EachSingle.FloatingActionBarsActivity" />
+        <activity android:name="EachSingle.TextInputEditTextActivity" />
+        <activity android:name="EachSingle.CacheStorageActivity" />
+        <activity android:name="EachSingle.ExternalStorageActivity" />
+        <activity android:name="EachSingle.InternalStorageActivity" />
+        <activity android:name="EachSingle.SharedPreferenceActivity" />
+        <activity android:name="EachSingle.ServiceLifeExampleActivity" />
+        <activity android:name="EachSingle.ServiceLifeCycleActivity" />
+        <activity android:name="EachSingle.DialogFragmentActivity" />
+        <activity android:name="EachSingle.InterFragmentCommunication" />
+        <activity android:name="EachSingle.ActivityLifeCycleActivity" />
+
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" /> <!-- <meta-data -->
+        <!-- android:name="com.google.android.gms.version" -->
+        <!-- android:value="@integer/google_play_services_version" /> -->
+        <activity android:name="EachSingle.GetWifiListActivity" />
+        <activity android:name="EachSingle.GetWifiInfoActivity" />
+        <activity android:name="EachSingle.TogetherActivity" />
+        <activity android:name="EachSingle.SequentialActivity" />
+        <activity android:name="EachSingle.BlinkActivity" />
+        <activity android:name="EachSingle.BounceActivity" />
+        <activity android:name="EachSingle.SlideActivity" />
+        <activity android:name="EachSingle.MoveActivity" />
+        <activity android:name="EachSingle.RotateActivity" />
+        <activity android:name="EachSingle.ZoomActivity" />
+        <activity android:name="EachSingle.FadeActivity" />
+        <activity android:name="EachSingle.ChangeWifiStateActivity" />
+        <activity android:name="EachSingle.ReadContactsActivity" />
+        <activity android:name="EachSingle.PhoneDetailActivity" />
+        <activity android:name="EachSingle.PopupMenuActivity" />
+        <activity android:name="EachSingle.OptionMenuActivity" />
+        <activity android:name="EachSingle.ContextMenuActivity" />
+        <activity android:name="EachSingle.SearchActivity" />
+        <activity android:name="EachSingle.WebviewActivity" />
+        <activity android:name="EachSingle.GridViewActivity" />
+        <activity android:name="EachSingle.ExpandableListViewActivity" />
+        <activity android:name="EachSingle.CustomlistViewActivity" />
+        <activity android:name="EachSingle.ListViewActivity" />
+        <activity android:name="EachSingle.CustomToastActivity1" />
+        <activity android:name="EachSingle.positiontoastActivity" />
+        <activity android:name="EachSingle.SimpleToastActivity" />
+        <activity android:name="EachSingle.GooglePlusActivity" />
+        <activity android:name="EachSingle.WhatsappActivity" />
+        <activity android:name="EachSingle.TwitterActivity" />
+        <activity android:name="EachSingle.InstagramActivity" />
+        <activity android:name="EachSingle.FacebookActivity" />
+        <activity android:name="EachSingle.StartActivityforResult2" />
+        <activity android:name="EachSingle.StartActivityforResult1" />
+        <activity android:name="EachSingle.Passingvalueonetoanother2" />
+        <activity android:name="EachSingle.Passingvalueonetoanother1" />
+        <activity android:name="EachSingle.ActivityTransition2" />
+        <activity android:name="EachSingle.ActivityTransition1" />
+        <activity android:name="EachSingle.CameraActivity" />
+        <activity android:name="EachSingle.PhoneDialActivity" />
+        <activity android:name="EachSingle.PhoneCallActivity" />
+        <activity android:name="EachSingle.MapsActivity" />
+        <activity android:name="EachSingle.EmailActivity" />
+        <activity android:name="EachSingle.ChronometerActivity" />
+        <activity android:name="EachSingle.TimePickerActivity" />
+        <activity android:name="EachSingle.DatePickerActivity" />
+        <activity android:name="EachSingle.TextClockActivity" />
+        <activity android:name="EachSingle.VideoViewActivity" />
+        <activity android:name="EachSingle.ImageViewActivity" />
+        <activity android:name="EachSingle.ImageButtonActivity" />
+        <activity android:name="EachSingle.AdapterViewFlipperActivity" />
+        <activity android:name="EachSingle.ImagesSwitcherActivity" />
+        <activity android:name="EachSingle.TextSwitcherActivity" />
+        <activity android:name="EachSingle.CheckedTextViewActivity" />
+        <activity android:name="EachSingle.SpinnerActivity" />
+        <activity android:name="EachSingle.AutoCompleteTextViewActivity" />
+        <activity android:name="EachSingle.ToogleBarActivity" />
+        <activity android:name="EachSingle.SwitchActivity" />
+        <activity android:name="EachSingle.SeekBarActivity" />
+        <activity android:name="EachSingle.RatingBarActivity" />
+        <activity android:name="EachSingle.CheckBoxActivity" />
+        <activity android:name="EachSingle.MultiAutoCompleteTextViewActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name="EachSingle.ButtonActivity" />
+        <activity android:name="EachSingle.RadioButtonActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <service android:name="EachSingle.ServiceLifeExample2" />
+        <service android:name="EachSingle.ServiceLifeCycle2" />
+    </application>
+
+</manifest>

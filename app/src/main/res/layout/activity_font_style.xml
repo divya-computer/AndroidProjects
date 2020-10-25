@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.FontStyleActivity"
+    android:background="#000000">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/dayslater"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/secondname"
+            android:layout_below="@id/firstname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/bleach"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/thirdname"
+            android:layout_below="@id/secondname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/braydonscript"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/fourthname"
+            android:layout_below="@id/thirdname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/greatvibesregular"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/fifthname"
+            android:layout_below="@id/fourthname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/dayslater"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/sixthname"
+            android:layout_below="@id/fifthname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/orangejuice"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/seventhname"
+            android:layout_below="@id/sixthname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/pacifico"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/eightname"
+            android:layout_below="@id/seventhname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/signaturephotopedia"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/ninename"
+            android:layout_below="@id/eightname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/srikandi"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/tenname"
+            android:layout_below="@id/ninename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/blood"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/elevenname"
+            android:layout_below="@id/tenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/bubblecute"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/twelvename"
+            android:layout_below="@id/elevenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/caroosnext"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/thirteenname"
+            android:layout_below="@id/twelvename"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/classicrockband"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/fourteenname"
+            android:layout_below="@id/thirteenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/downsignduo"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/fiveteenname"
+            android:layout_below="@id/fourteenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/funkybeheadz"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/sixteenname"
+            android:layout_below="@id/fiveteenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/halloweenbeforechristmas"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/seventeenname"
+            android:layout_below="@id/sixteenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/mightyduck"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+        <TextView
+            android:id="@+id/eighteenname"
+            android:layout_below="@id/seventeenname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30sp"
+            android:gravity="center"
+            android:fontFamily="@font/thornduck"
+            android:text="Divya Shaparia"
+            android:textColor="#ffffff"
+            android:textSize="45dp" />
+
+    </RelativeLayout>
+    
+</ScrollView>

@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/blur"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfilePage">
+
+    <ImageView
+        android:id="@+id/imagebro"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:src="@drawable/divyanew"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20sp"
+        />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@id/imagebro"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Divya Shaparia"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:textColor="#ffffff"/>
+
+    <TextView
+        android:id="@+id/city"
+        android:layout_below="@id/name"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ahmedabad,Gujarat"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <RelativeLayout
+        android:id="@+id/emaillayout"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_below="@id/city"
+        android:layout_marginTop="50sp">
+
+        <ImageView
+            android:id="@+id/emailicon"
+            android:layout_marginLeft="10dp"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:src="@drawable/ic_baseline_email_24"/>
+
+        <TextView
+            android:id="@+id/emailname"
+            android:layout_toRightOf="@id/emailicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="google@gmail.com"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/emailemail"
+            android:layout_below="@id/emailname"
+            android:layout_toRightOf="@id/emailicon"
+            android:text="Email"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/phonelayout"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_below="@id/emaillayout"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/phoneicon"
+            android:layout_marginLeft="10dp"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:src="@drawable/phone"/>
+
+        <TextView
+            android:id="@+id/phonename"
+            android:layout_toRightOf="@id/phoneicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="+91 1234567890"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/phonephone"
+            android:layout_below="@id/phonename"
+            android:layout_toRightOf="@id/phoneicon"
+            android:text="Phone No"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/androidlayout"
+        android:layout_width="match_parent"
+        android:layout_height="75sp"
+        android:layout_below="@id/phonelayout"
+        android:layout_marginTop="10dp">
+
+        <ImageView
+            android:id="@+id/androidicon"
+            android:layout_marginLeft="10dp"
+            android:layout_width="75sp"
+            android:layout_height="75sp"
+            android:src="@drawable/androidsymbol"/>
+
+        <TextView
+            android:id="@+id/androidname"
+            android:layout_toRightOf="@id/androidicon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Android Developer"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:layout_marginLeft="10sp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/androidandroid"
+            android:layout_below="@id/androidname"
+            android:layout_toRightOf="@id/androidicon"
+            android:text="Profession"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

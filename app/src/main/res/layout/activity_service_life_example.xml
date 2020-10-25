@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.ServiceLifeExampleActivity"
+    android:id="@+id/idLayout"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/idbtnStartServiceExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:onClick="ServiceExampleStart"
+        android:gravity="center"
+        android:layout_marginTop="20sp"/>
+
+    <Button
+        android:id="@+id/idbtnStopServiceExample"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:onClick="ServiceExampleStop"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Increase your Volume before clicking on start service"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"/>
+
+
+
+</LinearLayout>

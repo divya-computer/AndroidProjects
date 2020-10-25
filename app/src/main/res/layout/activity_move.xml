@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.MoveActivity">
+
+    <ImageView
+        android:layout_marginTop="100dp"
+        android:id="@+id/idImageViewMove"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon5"/>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_below="@id/idImageViewMove"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:id="@+id/idbtnMoveLeft"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Move Left"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/idbtnMoveRight"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Move Right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp">
+
+        <Button
+            android:id="@+id/idbtnMoveTop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Move Top"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+            android:id="@+id/idbtnMoveBottom"
+            android:layout_marginLeft="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Move Bottom"
+            android:textSize="13dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

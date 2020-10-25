@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context="EachSingle.InternalStorageActivity">
+
+    <EditText
+        android:id="@+id/idNameInternalStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:id="@+id/linearc"
+        android:layout_below="@id/idNameInternalStorage"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idBtnSaveInternalStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:text="Save to File"/>
+
+        <Button
+            android:id="@+id/idBtnReadInternalStorage"
+            android:text="Read File"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/idReadTextInternalStorage"
+        android:layout_below="@id/linearc"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="the storage of this text will stored in Internal storage in your device"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

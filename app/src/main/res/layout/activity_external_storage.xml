@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.ExternalStorageActivity"
+    android:padding="15sp">
+
+    <EditText
+        android:id="@+id/idNameExternalStorage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Name"
+        android:ems="10"
+        android:inputType="textPersonName"/>
+
+    <LinearLayout
+        android:id="@+id/linearb"
+        android:layout_below="@id/idNameExternalStorage"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idbtnSaveExternalStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Save to File"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/idbtnReadExternalStorage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_margin="5dp"
+            android:text="Read File"/>
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_below="@id/linearb"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:id="@+id/idReadtxtExternalStorage"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="the storage of this text will stored in External storage in your device"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

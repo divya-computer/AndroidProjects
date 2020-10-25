@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F4F47E"
+    tools:context="EachSingle.SoundClickActivity">
+
+    <Button
+        android:id="@+id/sound1"
+        android:text="Sound 1"
+        android:onClick="playSound"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_above="@id/sound2"/>
+
+    <Button
+        android:id="@+id/sound2"
+        android:text="Sound 2"
+        android:onClick="playSound"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/sound3"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/sound3"
+        android:text="Sound 3"
+        android:onClick="playSound"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/sound4"
+        android:text="Sound 4"
+        android:onClick="playSound"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sound3"
+        android:layout_marginTop="15dp"/>
+
+    <Button
+        android:id="@+id/sound5"
+        android:text="Sound 5"
+        android:onClick="playSound"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sound4"
+        android:layout_marginTop="15dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="There is a BUG in this code the first sound you want to play on that particular button you have to click multiple time maybe 7-8 times to play after it will work perfectly if it not work then click multiple times . "
+        android:textSize="20sp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000000"/>
+
+</RelativeLayout>

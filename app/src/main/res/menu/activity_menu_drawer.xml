@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/idItem1"
+            android:icon="@drawable/money"
+            android:title="Item 1" />
+
+        <item
+            android:id="@+id/idItem2"
+            android:icon="@drawable/android"
+            android:title="Item 2"/>
+
+        <item
+            android:id="@+id/idItem3"
+            android:icon="@drawable/building"
+            android:title="Item 3"/>
+
+        <item
+            android:id="@+id/idItem4"
+            android:icon="@drawable/message"
+            android:title="Item 3"/>
+
+        <item
+            android:id="@+id/idItem5"
+            android:icon="@drawable/grill"
+            android:title="Item 3"/>
+    </group>
+
+    <item android:title="Secton2">
+        <menu>
+            <item
+                android:id="@+id/idItem6"
+                android:icon="@drawable/send"
+                android:title="Item6"/>
+        </menu>
+    </item>
+
+    <item android:title="Section3">
+        <menu>
+            <item
+                android:id="@+id/idItem7"
+                android:icon="@drawable/question"
+                android:title="Item 7"/>
+        </menu>
+    </item>
+
+</menu>

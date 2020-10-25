@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.LottiesActivity"
+    android:layout_margin="10dp">
+
+<!--    <com.airbnb.lottie.LottieAnimationView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/animation1"-->
+<!--        app:lottie_loop="true"-->
+<!--        app:lottie_fileName="beachdance.json"-->
+<!--        app:lottie_autoPlay="true"/>-->
+
+    <Button
+        android:id="@+id/Lottie1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Beach Dance"
+        android:layout_marginTop="15dp"
+        android:onClick="beachdance"/>
+
+    <Button
+        android:id="@+id/Lottie2Button"
+        android:layout_below="@id/Lottie1Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dance"
+        android:layout_marginTop="10dp"
+        android:onClick="dance"/>
+
+    <Button
+        android:id="@+id/Lottie3Button"
+        android:layout_below="@+id/Lottie2Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dancing Bear"
+        android:layout_marginTop="10dp"
+        android:onClick="dancingbear"
+        />
+
+    <Button
+        android:id="@+id/Lottie4Button"
+        android:layout_below="@+id/Lottie3Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student University"
+        android:layout_marginTop="10dp"
+        android:onClick="studentuniversity"/>
+    <Button
+        android:id="@+id/Lottie5Button"
+        android:layout_below="@+id/Lottie4Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:layout_marginTop="10dp"
+        android:onClick="website"/>
+
+
+</RelativeLayout>

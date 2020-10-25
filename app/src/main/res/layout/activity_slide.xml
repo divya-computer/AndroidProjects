@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.SlideActivity">
+
+    <ImageView
+        android:id="@+id/idImageViewSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60sp"/>
+
+    <LinearLayout
+        android:id="@+id/linear11"
+        android:layout_below="@+id/idImageViewSlide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <Button
+            android:id="@+id/idbtnSlideTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Slide top"/>
+
+        <Button
+            android:id="@+id/idbtnSlideBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Slide Bottom"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@+id/linear11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/idbtnSlideRight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Slide Right"/>
+
+        <Button
+            android:id="@+id/idbtnSlideLeft"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Slide Left"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

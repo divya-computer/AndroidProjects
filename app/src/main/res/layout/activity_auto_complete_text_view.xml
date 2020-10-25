@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.AutoCompleteTextViewActivity">
+
+    <AutoCompleteTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idAutoCompTextView"
+        android:completionThreshold="1"/>
+
+    <TextView
+        android:layout_below="@+id/idAutoCompTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input text : \n Arjun , Ankit, Anuradha, Amreen, Abhis, Arvind, Ajay, Anam, Bharat,Bhaskar, Bhau, Bhabhi, Hemant,Himat,Himanshu,Heenat, Irfan,Imran,Iqbal,Imar, Raj,Rak,Rakesh,Rashmi,Raksha"/>
+
+</RelativeLayout>

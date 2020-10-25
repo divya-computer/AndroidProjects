@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.ServiceLifeCycleActivity"
+    android:orientation="vertical"
+    android:id="@+id/idLayoutServiceLifeCycle">
+
+    <Button
+        android:id="@+id/idbtnStartServiceLifeCycle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Service"
+        android:onClick="ServiceStart"
+        android:gravity="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Stop Service"
+        android:id="@+id/idbtnStopServiceLifeCycle"
+        android:onClick="ServiceStop"
+        android:gravity="center"/>
+
+</LinearLayout>

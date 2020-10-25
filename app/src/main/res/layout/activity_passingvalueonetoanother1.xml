@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="EachSingle.Passingvalueonetoanother1"
+    android:background="#FFEB3B">
+
+    <EditText
+        android:id="@+id/inputanyhere"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Here"
+        android:textSize="30dp"/>
+
+    <Button
+        android:id="@+id/gotoActivity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Goto Activity 2"
+        android:layout_centerHorizontal="true"
+        android:onClick="gotoactivity2valuepass"
+        android:layout_below="@+id/inputanyhere"/>
+
+
+</RelativeLayout>
